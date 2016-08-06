@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://pixabay.com/static/uploads/photo/2016/07/03/18/04/tech-1495181_960_720.jpg");
+background-size: cover;
+}
+
+.profile {
+  border:5px solid white;
+  display: block;
+  margin: auto;
+  box-shadow: -5px 6px 10px #888888;
+}
+
+.connections {
+  display: inline;
+  margin-left: 20em;
+  color: white;
+  font: 'Open Sans';
+  font-family: sans-serif;
+}
+
+.name {
+  text-align: center;
+  color: white;
+  font: 'Open Sans';
+  font-family: sans-serif;
+
+}
+.fa-linkedin-square {
+  color: blue;
+  text-decoration: none;
+  box-shadow: -5px 6px 10px #888888;
+}
+.contact{
+  display: inline;
+  margin: auto;
+}
+.fa-github {
+  color: black;
+  text-decoration: none;
+  margin:auto;
+  box-shadow: 0px 6px 10px #888888;
+}
+
+.fa-twitter-square {
+  color: blue;
+  text-decoration: none;
+  margin:auto;
+  box-shadow: 5px 6px 10px #888888;
+}
+
+article {
+  text-align: center;
+  color: white;
+  font: 'Open Sans';
+  font-family: sans-serif;
+}
+
+.fa-3 {
+  text-align: center;
+}
+
+.projects {
+  font-size: 50px;
+margin-left: 11em;
+color: white;
+font: 'Open Sans';
+font-family: sans-serif;
+}
+.projects:hover {
+  color: blue;
+  text-decoration: none;
+}
